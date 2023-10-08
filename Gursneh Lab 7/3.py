@@ -1,0 +1,8 @@
+N = (input('enter a sen:'))
+a =N.replace(' ','-')
+print(a)
+b = N.replace(' ','_')
+print('snake_case:',b)
+split = N.split(' ')
+c = split[0] + ''.join(word.title() for word in split[1:])
+print('camel_case:',c)
